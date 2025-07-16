@@ -2,7 +2,7 @@ from sort_tree import sort_tree
 from csv_to_people import csv_to_people
 from tree_to_json import tree_to_json
 
-CSV = '../data/no_root.csv'
+CSV = '../data/family.csv'
 JSON = '../data/tree.json'
 
 def main():
