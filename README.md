@@ -25,7 +25,7 @@ Input data:
 4|Jill Doe|1|2|
 
 Output Graph:
-![graph image](../images/example.png)
+![graph image](/images/example.png)
 
 ## More Complicated:
 Input Data:
@@ -61,7 +61,7 @@ Input Data:
 26|Edoardo Mapelli Mozzi|||25
 
 Result:
-![royal family](../images/royal_family.png)
+![royal family](/images/royal_family.png)
 
 ## Non-Tree Example
 |ID |Name|Parent 1|Parent 2|Partner IDs|
@@ -78,4 +78,4 @@ Result:
 10|Your Child|7|8
 
 Result:
-![no root](../images/no_root.png)
+![no root](/images/no_root.png)
