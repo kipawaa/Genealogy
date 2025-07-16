@@ -1,0 +1,11 @@
+ID,Name,Birth-Death(dd/mm/yyyy),Parent 1 ID,Parent 2 ID,Partner IDs(space separated),Generation,Notes
+1,Grandparent 1,,,,2,0
+2,Grandparent 2,,,,1,0
+3,Grandparent 3,,,,4,0
+4,Grandparent 4,,,,3,0
+5,Parent 1,,1,2,6,1
+6,Parent 2,,3,4,5,1
+7,You,,5,6,8,2
+8,Your Partner,,,,7,2
+9,Your Child,,7,8,,3
+10,Your Child,,7,8,,3

@@ -1,0 +1,24 @@
+body {
+        margin: 0;
+        background: black;
+}
+
+svg {
+        background: black;
+}
+
+.node {
+        fill: lightblue;
+        r: 10;
+}
+
+.ghost {
+        fill: none;
+        stroke: none;
+}
+
+.link {
+        stroke-width: 2;
+        stroke: darkgrey;
+        fill: none;
+}

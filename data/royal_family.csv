@@ -1,0 +1,27 @@
+ID,Name,Birth-Death(dd/mm/yyyy),Parent 1 ID,Parent 2 ID,Partner IDs(space separated),Generation,Notes
+1,Queen Elizabeth II,,,,2,0
+2,Prince Philip,,,,1,0,
+3,Princess Diana,,,,4,1
+4,King Charles,,1,2,3 5,1
+5,Camilla Parker Bowles,,,,4,1
+6,Sophie Rhys-Jones,,,,7,1
+7,Prince Edward,,1,2,6,1
+8,Kate Middleton,,,,9,2
+9,Prince William,,3,4,8,2
+10,Prince Harry,,3,4,11,2
+11,Meghan Markle,,,,10,2
+12,James Windsor,,6,7,,2
+13,Louise Windsor,,6,7,,2
+14,Princess Anne,,1,2,15 16,1
+15,Mark Phillips,,,,14,1
+16,Timothy Laurence,,,,14,1
+17,Prince Andrew,,1,2,18,1
+18,Sarah Ferguson,,,,17,1
+19,Peter Phillips,,14,15,20,2
+20,Autumn Phillips,,,,19,2
+21,Zara Tindall,,14,15,22,2
+22,Mike Tindall,,,,21,2
+23,Princess Eugenie,,17,18,24,2
+24,Jack Brooksbank,,,,23,2
+25,Princess Beatrice,,17,18,26,2
+26,Edoardo Mapelli Mozzi,,,,25,2

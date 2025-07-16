@@ -1,0 +1,135 @@
+{
+"nodes": [
+	{
+		"idx": 1,
+		"name": "Grandparent 1",
+		"birth_death": "null",
+		"p1": null,
+		"p2": null,
+		"partners": [2],
+		"gen": 0,
+		"notes": null,
+		"targ_x": -2.0
+	},
+	{
+		"idx": 2,
+		"name": "Grandparent 2",
+		"birth_death": "null",
+		"p1": null,
+		"p2": null,
+		"partners": [1],
+		"gen": 0,
+		"notes": null,
+		"targ_x": -1.0
+	},
+	{
+		"idx": 3,
+		"name": "Grandparent 3",
+		"birth_death": "null",
+		"p1": null,
+		"p2": null,
+		"partners": [4],
+		"gen": 0,
+		"notes": null,
+		"targ_x": 0.0
+	},
+	{
+		"idx": 4,
+		"name": "Grandparent 4",
+		"birth_death": "null",
+		"p1": null,
+		"p2": null,
+		"partners": [3],
+		"gen": 0,
+		"notes": null,
+		"targ_x": 1.0
+	},
+	{
+		"idx": 5,
+		"name": "Parent 1",
+		"birth_death": "null",
+		"p1": 1,
+		"p2": 2,
+		"partners": [6],
+		"gen": 1,
+		"notes": null,
+		"targ_x": -1.0
+	},
+	{
+		"idx": 6,
+		"name": "Parent 2",
+		"birth_death": "null",
+		"p1": 3,
+		"p2": 4,
+		"partners": [5],
+		"gen": 1,
+		"notes": null,
+		"targ_x": 0.0
+	},
+	{
+		"idx": 8,
+		"name": "Your Partner",
+		"birth_death": "null",
+		"p1": null,
+		"p2": null,
+		"partners": [7],
+		"gen": 2,
+		"notes": null,
+		"targ_x": -1.0
+	},
+	{
+		"idx": 7,
+		"name": "You",
+		"birth_death": "null",
+		"p1": 5,
+		"p2": 6,
+		"partners": [8],
+		"gen": 2,
+		"notes": null,
+		"targ_x": 0.0
+	},
+	{
+		"idx": 9,
+		"name": "Your Child",
+		"birth_death": "null",
+		"p1": 7,
+		"p2": 8,
+		"partners": null,
+		"gen": 3,
+		"notes": null,
+		"targ_x": -1.0
+	},
+	{
+		"idx": 10,
+		"name": "Your Child",
+		"birth_death": "null",
+		"p1": 7,
+		"p2": 8,
+		"partners": null,
+		"gen": 3,
+		"notes": null,
+		"targ_x": 0.0
+	}
+],
+"parent_child_links": [
+{"source": 5, "target": 1},
+{"source": 5, "target": 2},
+{"source": 6, "target": 3},
+{"source": 6, "target": 4},
+{"source": 7, "target": 5},
+{"source": 7, "target": 6},
+{"source": 9, "target": 7},
+{"source": 9, "target": 8},
+{"source": 10, "target": 7},
+{"source": 10, "target": 8}
+],
+"partner_links": [
+{"source": 1, "target": 2},
+{"source": 2, "target": 1},
+{"source": 3, "target": 4},
+{"source": 4, "target": 3},
+{"source": 5, "target": 6},
+{"source": 6, "target": 5},
+{"source": 8, "target": 7},
+{"source": 7, "target": 8}]
+}
